@@ -1,0 +1,1126 @@
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcublas.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcudnn.so.5 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcufft.so.8.0 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:135] successfully opened CUDA library libcurand.so.8.0 locally
+1090 frames in the video
+1th frame...
+/home/eason/workspace/car_detection/darkflow/darkflow/dark/darknet.py:54: UserWarning: ./cfg/yolo-car_6000.cfg not found, use cfg/yolo-car.cfg instead
+  cfg_path, FLAGS.model))
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015386581420898438s
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE3 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:885] Found device 0 with properties: 
+name: Tesla K80
+major: 3 minor: 7 memoryClockRate (GHz) 0.8235
+pciBusID 962a:00:00.0
+Total memory: 11.17GiB
+Free memory: 406.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:906] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:916] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.71902627, 'topleft': {'x': 604, 'y': 498}, 'bottomright': {'x': 1018, 'y': 710}}, {'label': 'car', 'confidence': 0.73553067, 'topleft': {'x': 760, 'y': 509}, 'bottomright': {'x': 1215, 'y': 752}}, {'label': 'car', 'confidence': 0.75890011, 'topleft': {'x': 1179, 'y': 544}, 'bottomright': {'x': 1413, 'y': 667}}, {'label': 'car', 'confidence': 0.90326607, 'topleft': {'x': 3, 'y': 474}, 'bottomright': {'x': 633, 'y': 922}}]
+2th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014642000198364258s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.72941011, 'topleft': {'x': 600, 'y': 499}, 'bottomright': {'x': 1029, 'y': 711}}, {'label': 'car', 'confidence': 0.73787636, 'topleft': {'x': 761, 'y': 509}, 'bottomright': {'x': 1213, 'y': 752}}, {'label': 'car', 'confidence': 0.75324905, 'topleft': {'x': 1174, 'y': 547}, 'bottomright': {'x': 1410, 'y': 668}}, {'label': 'car', 'confidence': 0.90400791, 'topleft': {'x': 0, 'y': 478}, 'bottomright': {'x': 634, 'y': 919}}]
+3th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014718055725097656s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.71069407, 'topleft': {'x': 622, 'y': 521}, 'bottomright': {'x': 910, 'y': 693}}, {'label': 'car', 'confidence': 0.7376107, 'topleft': {'x': 765, 'y': 512}, 'bottomright': {'x': 1207, 'y': 757}}, {'label': 'car', 'confidence': 0.78238958, 'topleft': {'x': 1175, 'y': 547}, 'bottomright': {'x': 1419, 'y': 671}}, {'label': 'car', 'confidence': 0.89809108, 'topleft': {'x': 2, 'y': 479}, 'bottomright': {'x': 631, 'y': 926}}]
+4th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014710664749145508s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.69862491, 'topleft': {'x': 598, 'y': 508}, 'bottomright': {'x': 795, 'y': 699}}, {'label': 'car', 'confidence': 0.77969599, 'topleft': {'x': 775, 'y': 516}, 'bottomright': {'x': 1205, 'y': 751}}, {'label': 'car', 'confidence': 0.7651509, 'topleft': {'x': 1175, 'y': 548}, 'bottomright': {'x': 1423, 'y': 664}}, {'label': 'car', 'confidence': 0.90099949, 'topleft': {'x': 7, 'y': 476}, 'bottomright': {'x': 630, 'y': 917}}]
+5th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014985322952270508s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.70805568, 'topleft': {'x': 601, 'y': 501}, 'bottomright': {'x': 794, 'y': 698}}, {'label': 'car', 'confidence': 0.77023172, 'topleft': {'x': 780, 'y': 507}, 'bottomright': {'x': 1198, 'y': 746}}, {'label': 'car', 'confidence': 0.77969813, 'topleft': {'x': 1172, 'y': 535}, 'bottomright': {'x': 1417, 'y': 659}}, {'label': 'car', 'confidence': 0.8715055, 'topleft': {'x': 0, 'y': 462}, 'bottomright': {'x': 629, 'y': 924}}]
+6th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014994144439697266s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.77742881, 'topleft': {'x': 602, 'y': 507}, 'bottomright': {'x': 802, 'y': 700}}, {'label': 'car', 'confidence': 0.76831698, 'topleft': {'x': 784, 'y': 510}, 'bottomright': {'x': 1196, 'y': 751}}, {'label': 'car', 'confidence': 0.75707686, 'topleft': {'x': 1170, 'y': 541}, 'bottomright': {'x': 1413, 'y': 657}}, {'label': 'car', 'confidence': 0.87733614, 'topleft': {'x': 0, 'y': 475}, 'bottomright': {'x': 632, 'y': 916}}]
+7th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01521611213684082s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.76379889, 'topleft': {'x': 603, 'y': 501}, 'bottomright': {'x': 799, 'y': 701}}, {'label': 'car', 'confidence': 0.77274251, 'topleft': {'x': 782, 'y': 507}, 'bottomright': {'x': 1193, 'y': 747}}, {'label': 'car', 'confidence': 0.75744617, 'topleft': {'x': 1169, 'y': 538}, 'bottomright': {'x': 1414, 'y': 655}}, {'label': 'car', 'confidence': 0.86875623, 'topleft': {'x': 0, 'y': 466}, 'bottomright': {'x': 632, 'y': 920}}]
+8th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015228033065795898s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74761546, 'topleft': {'x': 599, 'y': 491}, 'bottomright': {'x': 798, 'y': 706}}, {'label': 'car', 'confidence': 0.77704322, 'topleft': {'x': 775, 'y': 481}, 'bottomright': {'x': 1181, 'y': 751}}, {'label': 'car', 'confidence': 0.76749563, 'topleft': {'x': 1174, 'y': 527}, 'bottomright': {'x': 1397, 'y': 656}}, {'label': 'car', 'confidence': 0.8754009, 'topleft': {'x': 0, 'y': 475}, 'bottomright': {'x': 628, 'y': 914}}]
+9th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014659881591796875s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.78135681, 'topleft': {'x': 595, 'y': 491}, 'bottomright': {'x': 802, 'y': 705}}, {'label': 'car', 'confidence': 0.78980654, 'topleft': {'x': 777, 'y': 492}, 'bottomright': {'x': 1182, 'y': 751}}, {'label': 'car', 'confidence': 0.77244771, 'topleft': {'x': 1163, 'y': 525}, 'bottomright': {'x': 1402, 'y': 657}}, {'label': 'car', 'confidence': 0.83848697, 'topleft': {'x': 5, 'y': 476}, 'bottomright': {'x': 620, 'y': 917}}]
+10th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01501011848449707s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8218292, 'topleft': {'x': 592, 'y': 489}, 'bottomright': {'x': 803, 'y': 711}}, {'label': 'car', 'confidence': 0.78439581, 'topleft': {'x': 778, 'y': 493}, 'bottomright': {'x': 1184, 'y': 752}}, {'label': 'car', 'confidence': 0.76877153, 'topleft': {'x': 1158, 'y': 528}, 'bottomright': {'x': 1403, 'y': 659}}, {'label': 'car', 'confidence': 0.85664886, 'topleft': {'x': 10, 'y': 479}, 'bottomright': {'x': 616, 'y': 918}}]
+11th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01503753662109375s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81824201, 'topleft': {'x': 590, 'y': 490}, 'bottomright': {'x': 806, 'y': 707}}, {'label': 'car', 'confidence': 0.78971732, 'topleft': {'x': 779, 'y': 497}, 'bottomright': {'x': 1180, 'y': 749}}, {'label': 'car', 'confidence': 0.76828164, 'topleft': {'x': 1164, 'y': 532}, 'bottomright': {'x': 1407, 'y': 655}}, {'label': 'car', 'confidence': 0.8509016, 'topleft': {'x': 7, 'y': 470}, 'bottomright': {'x': 617, 'y': 919}}]
+12th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014184236526489258s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82936919, 'topleft': {'x': 589, 'y': 490}, 'bottomright': {'x': 805, 'y': 705}}, {'label': 'car', 'confidence': 0.81928575, 'topleft': {'x': 788, 'y': 502}, 'bottomright': {'x': 1174, 'y': 747}}, {'label': 'car', 'confidence': 0.79099005, 'topleft': {'x': 1159, 'y': 526}, 'bottomright': {'x': 1410, 'y': 653}}, {'label': 'car', 'confidence': 0.8332355, 'topleft': {'x': 14, 'y': 469}, 'bottomright': {'x': 615, 'y': 910}}]
+13th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01429128646850586s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8223533, 'topleft': {'x': 580, 'y': 482}, 'bottomright': {'x': 811, 'y': 712}}, {'label': 'car', 'confidence': 0.81554681, 'topleft': {'x': 773, 'y': 500}, 'bottomright': {'x': 1172, 'y': 751}}, {'label': 'car', 'confidence': 0.78655666, 'topleft': {'x': 1152, 'y': 528}, 'bottomright': {'x': 1394, 'y': 655}}, {'label': 'car', 'confidence': 0.84126866, 'topleft': {'x': 0, 'y': 464}, 'bottomright': {'x': 571, 'y': 912}}]
+14th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015833139419555664s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8153401, 'topleft': {'x': 578, 'y': 473}, 'bottomright': {'x': 833, 'y': 673}}, {'label': 'car', 'confidence': 0.83253795, 'topleft': {'x': 753, 'y': 495}, 'bottomright': {'x': 1169, 'y': 750}}, {'label': 'car', 'confidence': 0.76946878, 'topleft': {'x': 1149, 'y': 531}, 'bottomright': {'x': 1397, 'y': 652}}, {'label': 'car', 'confidence': 0.84506142, 'topleft': {'x': 0, 'y': 459}, 'bottomright': {'x': 574, 'y': 910}}]
+15th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01517486572265625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81798065, 'topleft': {'x': 572, 'y': 479}, 'bottomright': {'x': 817, 'y': 711}}, {'label': 'car', 'confidence': 0.8300032, 'topleft': {'x': 754, 'y': 499}, 'bottomright': {'x': 1177, 'y': 754}}, {'label': 'car', 'confidence': 0.78638464, 'topleft': {'x': 1143, 'y': 531}, 'bottomright': {'x': 1408, 'y': 653}}, {'label': 'car', 'confidence': 0.83713025, 'topleft': {'x': 0, 'y': 460}, 'bottomright': {'x': 570, 'y': 910}}]
+16th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014260530471801758s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82378083, 'topleft': {'x': 573, 'y': 479}, 'bottomright': {'x': 818, 'y': 711}}, {'label': 'car', 'confidence': 0.82398403, 'topleft': {'x': 749, 'y': 500}, 'bottomright': {'x': 1173, 'y': 755}}, {'label': 'car', 'confidence': 0.7938593, 'topleft': {'x': 1144, 'y': 529}, 'bottomright': {'x': 1405, 'y': 654}}, {'label': 'car', 'confidence': 0.84809601, 'topleft': {'x': 0, 'y': 460}, 'bottomright': {'x': 571, 'y': 918}}]
+17th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015556097030639648s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83364069, 'topleft': {'x': 571, 'y': 490}, 'bottomright': {'x': 815, 'y': 715}}, {'label': 'car', 'confidence': 0.82875174, 'topleft': {'x': 755, 'y': 513}, 'bottomright': {'x': 1169, 'y': 760}}, {'label': 'car', 'confidence': 0.78087002, 'topleft': {'x': 1140, 'y': 540}, 'bottomright': {'x': 1399, 'y': 652}}, {'label': 'car', 'confidence': 0.84814495, 'topleft': {'x': 31, 'y': 481}, 'bottomright': {'x': 591, 'y': 913}}]
+18th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014238119125366211s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82610494, 'topleft': {'x': 572, 'y': 482}, 'bottomright': {'x': 815, 'y': 709}}, {'label': 'car', 'confidence': 0.81921011, 'topleft': {'x': 753, 'y': 507}, 'bottomright': {'x': 1167, 'y': 754}}, {'label': 'car', 'confidence': 0.78198117, 'topleft': {'x': 1145, 'y': 534}, 'bottomright': {'x': 1408, 'y': 650}}, {'label': 'car', 'confidence': 0.85085219, 'topleft': {'x': 0, 'y': 455}, 'bottomright': {'x': 568, 'y': 922}}]
+19th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.017244815826416016s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8163777, 'topleft': {'x': 564, 'y': 481}, 'bottomright': {'x': 822, 'y': 708}}, {'label': 'car', 'confidence': 0.8394959, 'topleft': {'x': 742, 'y': 501}, 'bottomright': {'x': 1170, 'y': 751}}, {'label': 'car', 'confidence': 0.79136598, 'topleft': {'x': 1144, 'y': 524}, 'bottomright': {'x': 1408, 'y': 653}}, {'label': 'car', 'confidence': 0.84651554, 'topleft': {'x': 0, 'y': 464}, 'bottomright': {'x': 578, 'y': 921}}]
+20th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014489889144897461s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.7906068, 'topleft': {'x': 563, 'y': 486}, 'bottomright': {'x': 817, 'y': 709}}, {'label': 'car', 'confidence': 0.84064072, 'topleft': {'x': 746, 'y': 498}, 'bottomright': {'x': 1169, 'y': 752}}, {'label': 'car', 'confidence': 0.7678116, 'topleft': {'x': 1148, 'y': 532}, 'bottomright': {'x': 1403, 'y': 652}}, {'label': 'car', 'confidence': 0.84411013, 'topleft': {'x': 0, 'y': 459}, 'bottomright': {'x': 569, 'y': 923}}]
+21th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015404701232910156s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.77485329, 'topleft': {'x': 572, 'y': 485}, 'bottomright': {'x': 813, 'y': 708}}, {'label': 'car', 'confidence': 0.83866602, 'topleft': {'x': 746, 'y': 491}, 'bottomright': {'x': 1166, 'y': 750}}, {'label': 'car', 'confidence': 0.75751948, 'topleft': {'x': 1151, 'y': 528}, 'bottomright': {'x': 1403, 'y': 651}}, {'label': 'car', 'confidence': 0.8411985, 'topleft': {'x': 0, 'y': 459}, 'bottomright': {'x': 568, 'y': 926}}]
+22th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014856815338134766s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.73804128, 'topleft': {'x': 577, 'y': 477}, 'bottomright': {'x': 820, 'y': 665}}, {'label': 'car', 'confidence': 0.78126907, 'topleft': {'x': 1146, 'y': 501}, 'bottomright': {'x': 1415, 'y': 652}}, {'label': 'car', 'confidence': 0.84266216, 'topleft': {'x': 742, 'y': 493}, 'bottomright': {'x': 1169, 'y': 747}}, {'label': 'car', 'confidence': 0.83350438, 'topleft': {'x': 0, 'y': 456}, 'bottomright': {'x': 563, 'y': 925}}]
+23th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01508784294128418s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79858446, 'topleft': {'x': 1143, 'y': 500}, 'bottomright': {'x': 1409, 'y': 653}}, {'label': 'car', 'confidence': 0.74530613, 'topleft': {'x': 573, 'y': 488}, 'bottomright': {'x': 813, 'y': 707}}, {'label': 'car', 'confidence': 0.84389144, 'topleft': {'x': 739, 'y': 492}, 'bottomright': {'x': 1168, 'y': 748}}, {'label': 'car', 'confidence': 0.8482942, 'topleft': {'x': 0, 'y': 449}, 'bottomright': {'x': 564, 'y': 928}}]
+24th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014584541320800781s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.7933259, 'topleft': {'x': 569, 'y': 482}, 'bottomright': {'x': 817, 'y': 716}}, {'label': 'car', 'confidence': 0.83992016, 'topleft': {'x': 753, 'y': 499}, 'bottomright': {'x': 1170, 'y': 750}}, {'label': 'car', 'confidence': 0.77765054, 'topleft': {'x': 1148, 'y': 528}, 'bottomright': {'x': 1409, 'y': 652}}, {'label': 'car', 'confidence': 0.84260565, 'topleft': {'x': 0, 'y': 448}, 'bottomright': {'x': 567, 'y': 925}}]
+25th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014841556549072266s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79415697, 'topleft': {'x': 1144, 'y': 497}, 'bottomright': {'x': 1412, 'y': 658}}, {'label': 'car', 'confidence': 0.75708699, 'topleft': {'x': 576, 'y': 480}, 'bottomright': {'x': 817, 'y': 715}}, {'label': 'car', 'confidence': 0.83684003, 'topleft': {'x': 747, 'y': 494}, 'bottomright': {'x': 1175, 'y': 751}}, {'label': 'car', 'confidence': 0.85151684, 'topleft': {'x': 0, 'y': 440}, 'bottomright': {'x': 560, 'y': 929}}]
+26th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01504969596862793s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.69822216, 'topleft': {'x': 572, 'y': 475}, 'bottomright': {'x': 822, 'y': 666}}, {'label': 'car', 'confidence': 0.76875073, 'topleft': {'x': 1150, 'y': 499}, 'bottomright': {'x': 1408, 'y': 655}}, {'label': 'car', 'confidence': 0.84294611, 'topleft': {'x': 734, 'y': 486}, 'bottomright': {'x': 1171, 'y': 747}}, {'label': 'car', 'confidence': 0.85055006, 'topleft': {'x': 0, 'y': 441}, 'bottomright': {'x': 560, 'y': 922}}]
+27th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014667272567749023s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79692477, 'topleft': {'x': 1152, 'y': 496}, 'bottomright': {'x': 1407, 'y': 657}}, {'label': 'car', 'confidence': 0.78129995, 'topleft': {'x': 574, 'y': 486}, 'bottomright': {'x': 820, 'y': 712}}, {'label': 'car', 'confidence': 0.83821362, 'topleft': {'x': 751, 'y': 489}, 'bottomright': {'x': 1168, 'y': 749}}, {'label': 'car', 'confidence': 0.86155266, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 556, 'y': 922}}]
+28th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01569843292236328s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80829006, 'topleft': {'x': 1148, 'y': 493}, 'bottomright': {'x': 1399, 'y': 659}}, {'label': 'car', 'confidence': 0.84826171, 'topleft': {'x': 740, 'y': 484}, 'bottomright': {'x': 1166, 'y': 747}}, {'label': 'car', 'confidence': 0.86258483, 'topleft': {'x': 0, 'y': 449}, 'bottomright': {'x': 555, 'y': 917}}]
+29th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015563011169433594s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.77392989, 'topleft': {'x': 593, 'y': 472}, 'bottomright': {'x': 822, 'y': 663}}, {'label': 'car', 'confidence': 0.83768708, 'topleft': {'x': 1152, 'y': 495}, 'bottomright': {'x': 1400, 'y': 657}}, {'label': 'car', 'confidence': 0.84567356, 'topleft': {'x': 755, 'y': 488}, 'bottomright': {'x': 1164, 'y': 744}}, {'label': 'car', 'confidence': 0.85466045, 'topleft': {'x': 0, 'y': 438}, 'bottomright': {'x': 534, 'y': 926}}]
+30th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014735937118530273s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.73750681, 'topleft': {'x': 589, 'y': 478}, 'bottomright': {'x': 823, 'y': 656}}, {'label': 'car', 'confidence': 0.8423031, 'topleft': {'x': 1146, 'y': 493}, 'bottomright': {'x': 1398, 'y': 653}}, {'label': 'car', 'confidence': 0.84744525, 'topleft': {'x': 744, 'y': 476}, 'bottomright': {'x': 1162, 'y': 741}}, {'label': 'car', 'confidence': 0.85324353, 'topleft': {'x': 7, 'y': 438}, 'bottomright': {'x': 526, 'y': 928}}]
+31th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015471458435058594s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.76344663, 'topleft': {'x': 587, 'y': 475}, 'bottomright': {'x': 826, 'y': 662}}, {'label': 'car', 'confidence': 0.81212842, 'topleft': {'x': 1151, 'y': 501}, 'bottomright': {'x': 1402, 'y': 648}}, {'label': 'car', 'confidence': 0.85438812, 'topleft': {'x': 739, 'y': 482}, 'bottomright': {'x': 1163, 'y': 744}}, {'label': 'car', 'confidence': 0.85827243, 'topleft': {'x': 10, 'y': 450}, 'bottomright': {'x': 518, 'y': 927}}]
+32th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015438556671142578s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80251175, 'topleft': {'x': 1143, 'y': 493}, 'bottomright': {'x': 1411, 'y': 657}}, {'label': 'car', 'confidence': 0.84724432, 'topleft': {'x': 716, 'y': 485}, 'bottomright': {'x': 1168, 'y': 750}}, {'label': 'car', 'confidence': 0.8680799, 'topleft': {'x': 14, 'y': 455}, 'bottomright': {'x': 506, 'y': 925}}]
+33th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014556407928466797s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.7717784, 'topleft': {'x': 1154, 'y': 503}, 'bottomright': {'x': 1404, 'y': 650}}, {'label': 'car', 'confidence': 0.85160249, 'topleft': {'x': 737, 'y': 486}, 'bottomright': {'x': 1167, 'y': 752}}, {'label': 'car', 'confidence': 0.87036836, 'topleft': {'x': 7, 'y': 462}, 'bottomright': {'x': 511, 'y': 921}}]
+34th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014598846435546875s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85618347, 'topleft': {'x': 724, 'y': 486}, 'bottomright': {'x': 1170, 'y': 753}}, {'label': 'car', 'confidence': 0.74450511, 'topleft': {'x': 1147, 'y': 530}, 'bottomright': {'x': 1398, 'y': 649}}, {'label': 'car', 'confidence': 0.88055784, 'topleft': {'x': 9, 'y': 464}, 'bottomright': {'x': 514, 'y': 923}}]
+35th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015234708786010742s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85001642, 'topleft': {'x': 719, 'y': 486}, 'bottomright': {'x': 1168, 'y': 753}}, {'label': 'car', 'confidence': 0.75168771, 'topleft': {'x': 1144, 'y': 528}, 'bottomright': {'x': 1398, 'y': 650}}, {'label': 'car', 'confidence': 0.8816573, 'topleft': {'x': 3, 'y': 458}, 'bottomright': {'x': 502, 'y': 920}}]
+36th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015609025955200195s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84820753, 'topleft': {'x': 715, 'y': 490}, 'bottomright': {'x': 1172, 'y': 753}}, {'label': 'car', 'confidence': 0.74767566, 'topleft': {'x': 1146, 'y': 531}, 'bottomright': {'x': 1397, 'y': 650}}, {'label': 'car', 'confidence': 0.88131899, 'topleft': {'x': 0, 'y': 456}, 'bottomright': {'x': 487, 'y': 920}}]
+37th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015053510665893555s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85769725, 'topleft': {'x': 715, 'y': 484}, 'bottomright': {'x': 1168, 'y': 753}}, {'label': 'car', 'confidence': 0.71874797, 'topleft': {'x': 1146, 'y': 527}, 'bottomright': {'x': 1396, 'y': 654}}, {'label': 'car', 'confidence': 0.87019008, 'topleft': {'x': 0, 'y': 460}, 'bottomright': {'x': 470, 'y': 914}}]
+38th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.0158083438873291s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80601555, 'topleft': {'x': 1131, 'y': 492}, 'bottomright': {'x': 1419, 'y': 659}}, {'label': 'car', 'confidence': 0.85263938, 'topleft': {'x': 706, 'y': 480}, 'bottomright': {'x': 1171, 'y': 753}}, {'label': 'car', 'confidence': 0.86676937, 'topleft': {'x': 8, 'y': 466}, 'bottomright': {'x': 464, 'y': 921}}]
+39th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01425790786743164s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.78261906, 'topleft': {'x': 1142, 'y': 495}, 'bottomright': {'x': 1404, 'y': 657}}, {'label': 'car', 'confidence': 0.86055225, 'topleft': {'x': 711, 'y': 484}, 'bottomright': {'x': 1163, 'y': 751}}, {'label': 'car', 'confidence': 0.87714726, 'topleft': {'x': 8, 'y': 462}, 'bottomright': {'x': 453, 'y': 924}}]
+40th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014150857925415039s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8172586, 'topleft': {'x': 1139, 'y': 493}, 'bottomright': {'x': 1410, 'y': 659}}, {'label': 'car', 'confidence': 0.86210394, 'topleft': {'x': 711, 'y': 484}, 'bottomright': {'x': 1163, 'y': 754}}, {'label': 'car', 'confidence': 0.87573779, 'topleft': {'x': 2, 'y': 455}, 'bottomright': {'x': 435, 'y': 935}}]
+41th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015232324600219727s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81619108, 'topleft': {'x': 1139, 'y': 499}, 'bottomright': {'x': 1412, 'y': 654}}, {'label': 'car', 'confidence': 0.85825145, 'topleft': {'x': 721, 'y': 488}, 'bottomright': {'x': 1160, 'y': 753}}, {'label': 'car', 'confidence': 0.87711614, 'topleft': {'x': 0, 'y': 452}, 'bottomright': {'x': 402, 'y': 945}}]
+42th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014282941818237305s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79377925, 'topleft': {'x': 586, 'y': 478}, 'bottomright': {'x': 836, 'y': 659}}, {'label': 'car', 'confidence': 0.84807307, 'topleft': {'x': 1127, 'y': 490}, 'bottomright': {'x': 1393, 'y': 659}}, {'label': 'car', 'confidence': 0.86054093, 'topleft': {'x': 728, 'y': 486}, 'bottomright': {'x': 1162, 'y': 753}}, {'label': 'car', 'confidence': 0.86329246, 'topleft': {'x': 0, 'y': 447}, 'bottomright': {'x': 383, 'y': 942}}]
+43th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014539241790771484s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.73646915, 'topleft': {'x': 587, 'y': 484}, 'bottomright': {'x': 831, 'y': 652}}, {'label': 'car', 'confidence': 0.86244369, 'topleft': {'x': 1123, 'y': 487}, 'bottomright': {'x': 1392, 'y': 661}}, {'label': 'car', 'confidence': 0.86445785, 'topleft': {'x': 714, 'y': 481}, 'bottomright': {'x': 1156, 'y': 748}}, {'label': 'car', 'confidence': 0.86885816, 'topleft': {'x': 0, 'y': 454}, 'bottomright': {'x': 375, 'y': 936}}]
+44th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014117240905761719s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81295943, 'topleft': {'x': 1124, 'y': 493}, 'bottomright': {'x': 1387, 'y': 660}}, {'label': 'car', 'confidence': 0.80607975, 'topleft': {'x': 576, 'y': 480}, 'bottomright': {'x': 824, 'y': 712}}, {'label': 'car', 'confidence': 0.86288095, 'topleft': {'x': 727, 'y': 486}, 'bottomright': {'x': 1157, 'y': 755}}, {'label': 'car', 'confidence': 0.86845219, 'topleft': {'x': 0, 'y': 461}, 'bottomright': {'x': 368, 'y': 947}}]
+45th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014188051223754883s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81933188, 'topleft': {'x': 1130, 'y': 496}, 'bottomright': {'x': 1389, 'y': 656}}, {'label': 'car', 'confidence': 0.80502033, 'topleft': {'x': 577, 'y': 480}, 'bottomright': {'x': 821, 'y': 713}}, {'label': 'car', 'confidence': 0.86918479, 'topleft': {'x': 722, 'y': 487}, 'bottomright': {'x': 1158, 'y': 755}}, {'label': 'car', 'confidence': 0.86922389, 'topleft': {'x': 0, 'y': 458}, 'bottomright': {'x': 368, 'y': 936}}]
+46th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.013869285583496094s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85364777, 'topleft': {'x': 1128, 'y': 493}, 'bottomright': {'x': 1415, 'y': 658}}, {'label': 'car', 'confidence': 0.72603452, 'topleft': {'x': 577, 'y': 479}, 'bottomright': {'x': 820, 'y': 712}}, {'label': 'car', 'confidence': 0.8676796, 'topleft': {'x': 701, 'y': 487}, 'bottomright': {'x': 1155, 'y': 749}}, {'label': 'car', 'confidence': 0.85733598, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 364, 'y': 949}}]
+47th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014670848846435547s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80820447, 'topleft': {'x': 1131, 'y': 498}, 'bottomright': {'x': 1400, 'y': 653}}, {'label': 'car', 'confidence': 0.76095778, 'topleft': {'x': 572, 'y': 482}, 'bottomright': {'x': 823, 'y': 707}}, {'label': 'car', 'confidence': 0.86333555, 'topleft': {'x': 700, 'y': 488}, 'bottomright': {'x': 1155, 'y': 752}}, {'label': 'car', 'confidence': 0.84655946, 'topleft': {'x': 0, 'y': 451}, 'bottomright': {'x': 354, 'y': 944}}]
+48th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014448881149291992s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8131668, 'topleft': {'x': 1124, 'y': 500}, 'bottomright': {'x': 1402, 'y': 652}}, {'label': 'car', 'confidence': 0.7661494, 'topleft': {'x': 572, 'y': 482}, 'bottomright': {'x': 823, 'y': 709}}, {'label': 'car', 'confidence': 0.86203337, 'topleft': {'x': 705, 'y': 494}, 'bottomright': {'x': 1153, 'y': 753}}, {'label': 'car', 'confidence': 0.80311173, 'topleft': {'x': 0, 'y': 447}, 'bottomright': {'x': 355, 'y': 939}}]
+49th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014190912246704102s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83680034, 'topleft': {'x': 1127, 'y': 495}, 'bottomright': {'x': 1413, 'y': 656}}, {'label': 'car', 'confidence': 0.76284337, 'topleft': {'x': 0, 'y': 453}, 'bottomright': {'x': 363, 'y': 827}}, {'label': 'car', 'confidence': 0.75917011, 'topleft': {'x': 574, 'y': 484}, 'bottomright': {'x': 819, 'y': 706}}, {'label': 'car', 'confidence': 0.86783803, 'topleft': {'x': 711, 'y': 493}, 'bottomright': {'x': 1151, 'y': 754}}]
+50th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015039443969726562s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86061001, 'topleft': {'x': 1122, 'y': 489}, 'bottomright': {'x': 1420, 'y': 662}}, {'label': 'car', 'confidence': 0.79361999, 'topleft': {'x': 0, 'y': 462}, 'bottomright': {'x': 359, 'y': 806}}, {'label': 'car', 'confidence': 0.70567167, 'topleft': {'x': 574, 'y': 482}, 'bottomright': {'x': 818, 'y': 705}}, {'label': 'car', 'confidence': 0.86333561, 'topleft': {'x': 701, 'y': 487}, 'bottomright': {'x': 1149, 'y': 754}}]
+51th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014245986938476562s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83980685, 'topleft': {'x': 1126, 'y': 491}, 'bottomright': {'x': 1401, 'y': 660}}, {'label': 'car', 'confidence': 0.75769728, 'topleft': {'x': 0, 'y': 465}, 'bottomright': {'x': 363, 'y': 781}}, {'label': 'car', 'confidence': 0.73671913, 'topleft': {'x': 577, 'y': 483}, 'bottomright': {'x': 812, 'y': 704}}, {'label': 'car', 'confidence': 0.85695922, 'topleft': {'x': 705, 'y': 486}, 'bottomright': {'x': 1149, 'y': 751}}]
+52th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014758825302124023s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74552971, 'topleft': {'x': 10, 'y': 446}, 'bottomright': {'x': 356, 'y': 695}}, {'label': 'car', 'confidence': 0.76319194, 'topleft': {'x': 594, 'y': 478}, 'bottomright': {'x': 831, 'y': 658}}, {'label': 'car', 'confidence': 0.86488718, 'topleft': {'x': 1109, 'y': 487}, 'bottomright': {'x': 1402, 'y': 662}}, {'label': 'car', 'confidence': 0.85488784, 'topleft': {'x': 704, 'y': 484}, 'bottomright': {'x': 1148, 'y': 753}}, {'label': 'car', 'confidence': 0.73739821, 'topleft': {'x': 16, 'y': 427}, 'bottomright': {'x': 229, 'y': 957}}]
+53th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014356136322021484s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8044427, 'topleft': {'x': 13, 'y': 444}, 'bottomright': {'x': 347, 'y': 698}}, {'label': 'car', 'confidence': 0.74623382, 'topleft': {'x': 594, 'y': 482}, 'bottomright': {'x': 832, 'y': 650}}, {'label': 'car', 'confidence': 0.82667333, 'topleft': {'x': 1107, 'y': 492}, 'bottomright': {'x': 1379, 'y': 658}}, {'label': 'car', 'confidence': 0.8584981, 'topleft': {'x': 696, 'y': 485}, 'bottomright': {'x': 1149, 'y': 752}}, {'label': 'car', 'confidence': 0.64410794, 'topleft': {'x': 23, 'y': 429}, 'bottomright': {'x': 217, 'y': 953}}]
+54th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015528678894042969s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83808929, 'topleft': {'x': 18, 'y': 435}, 'bottomright': {'x': 348, 'y': 702}}, {'label': 'car', 'confidence': 0.86007082, 'topleft': {'x': 1114, 'y': 491}, 'bottomright': {'x': 1399, 'y': 659}}, {'label': 'car', 'confidence': 0.86978203, 'topleft': {'x': 690, 'y': 473}, 'bottomright': {'x': 1143, 'y': 746}}]
+55th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014490842819213867s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84058177, 'topleft': {'x': 12, 'y': 436}, 'bottomright': {'x': 354, 'y': 703}}, {'label': 'car', 'confidence': 0.74378306, 'topleft': {'x': 595, 'y': 482}, 'bottomright': {'x': 827, 'y': 651}}, {'label': 'car', 'confidence': 0.83580357, 'topleft': {'x': 1121, 'y': 490}, 'bottomright': {'x': 1381, 'y': 658}}, {'label': 'car', 'confidence': 0.87190187, 'topleft': {'x': 701, 'y': 475}, 'bottomright': {'x': 1139, 'y': 748}}]
+56th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01441645622253418s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85406333, 'topleft': {'x': 5, 'y': 442}, 'bottomright': {'x': 359, 'y': 696}}, {'label': 'car', 'confidence': 0.77862513, 'topleft': {'x': 589, 'y': 478}, 'bottomright': {'x': 832, 'y': 653}}, {'label': 'car', 'confidence': 0.8326062, 'topleft': {'x': 1122, 'y': 491}, 'bottomright': {'x': 1390, 'y': 655}}, {'label': 'car', 'confidence': 0.87279725, 'topleft': {'x': 713, 'y': 484}, 'bottomright': {'x': 1139, 'y': 750}}]
+57th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.0153045654296875s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85595644, 'topleft': {'x': 11, 'y': 446}, 'bottomright': {'x': 367, 'y': 699}}, {'label': 'car', 'confidence': 0.77867377, 'topleft': {'x': 592, 'y': 477}, 'bottomright': {'x': 830, 'y': 657}}, {'label': 'car', 'confidence': 0.82815611, 'topleft': {'x': 1115, 'y': 491}, 'bottomright': {'x': 1394, 'y': 657}}, {'label': 'car', 'confidence': 0.87068105, 'topleft': {'x': 720, 'y': 479}, 'bottomright': {'x': 1138, 'y': 749}}]
+58th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.016010046005249023s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85399896, 'topleft': {'x': 17, 'y': 446}, 'bottomright': {'x': 362, 'y': 700}}, {'label': 'car', 'confidence': 0.7636832, 'topleft': {'x': 592, 'y': 478}, 'bottomright': {'x': 831, 'y': 656}}, {'label': 'car', 'confidence': 0.81294888, 'topleft': {'x': 1115, 'y': 491}, 'bottomright': {'x': 1390, 'y': 657}}, {'label': 'car', 'confidence': 0.87161499, 'topleft': {'x': 719, 'y': 474}, 'bottomright': {'x': 1137, 'y': 748}}]
+59th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01672506332397461s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84994692, 'topleft': {'x': 1, 'y': 442}, 'bottomright': {'x': 349, 'y': 704}}, {'label': 'car', 'confidence': 0.83034986, 'topleft': {'x': 1120, 'y': 493}, 'bottomright': {'x': 1381, 'y': 656}}, {'label': 'car', 'confidence': 0.75528377, 'topleft': {'x': 567, 'y': 488}, 'bottomright': {'x': 813, 'y': 696}}, {'label': 'car', 'confidence': 0.86804086, 'topleft': {'x': 716, 'y': 484}, 'bottomright': {'x': 1131, 'y': 752}}]
+60th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.013789653778076172s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85564792, 'topleft': {'x': 4, 'y': 439}, 'bottomright': {'x': 349, 'y': 709}}, {'label': 'car', 'confidence': 0.8363812, 'topleft': {'x': 1126, 'y': 497}, 'bottomright': {'x': 1388, 'y': 653}}, {'label': 'car', 'confidence': 0.74395525, 'topleft': {'x': 569, 'y': 486}, 'bottomright': {'x': 813, 'y': 697}}, {'label': 'car', 'confidence': 0.86151809, 'topleft': {'x': 710, 'y': 484}, 'bottomright': {'x': 1134, 'y': 750}}]
+61th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014212608337402344s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85473716, 'topleft': {'x': 2, 'y': 443}, 'bottomright': {'x': 351, 'y': 706}}, {'label': 'car', 'confidence': 0.77889949, 'topleft': {'x': 590, 'y': 477}, 'bottomright': {'x': 834, 'y': 660}}, {'label': 'car', 'confidence': 0.8318646, 'topleft': {'x': 1113, 'y': 490}, 'bottomright': {'x': 1385, 'y': 659}}, {'label': 'car', 'confidence': 0.86405391, 'topleft': {'x': 725, 'y': 476}, 'bottomright': {'x': 1133, 'y': 752}}]
+62th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01470041275024414s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85515237, 'topleft': {'x': 1, 'y': 444}, 'bottomright': {'x': 351, 'y': 705}}, {'label': 'car', 'confidence': 0.82386255, 'topleft': {'x': 1110, 'y': 493}, 'bottomright': {'x': 1378, 'y': 656}}, {'label': 'car', 'confidence': 0.79174972, 'topleft': {'x': 575, 'y': 487}, 'bottomright': {'x': 815, 'y': 696}}, {'label': 'car', 'confidence': 0.86324012, 'topleft': {'x': 732, 'y': 484}, 'bottomright': {'x': 1129, 'y': 755}}]
+63th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014065980911254883s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85963255, 'topleft': {'x': 0, 'y': 448}, 'bottomright': {'x': 351, 'y': 700}}, {'label': 'car', 'confidence': 0.75046253, 'topleft': {'x': 591, 'y': 480}, 'bottomright': {'x': 831, 'y': 656}}, {'label': 'car', 'confidence': 0.85956359, 'topleft': {'x': 1116, 'y': 490}, 'bottomright': {'x': 1398, 'y': 658}}, {'label': 'car', 'confidence': 0.87124157, 'topleft': {'x': 717, 'y': 483}, 'bottomright': {'x': 1130, 'y': 751}}]
+64th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01575493812561035s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86516714, 'topleft': {'x': 2, 'y': 443}, 'bottomright': {'x': 345, 'y': 703}}, {'label': 'car', 'confidence': 0.73905897, 'topleft': {'x': 595, 'y': 480}, 'bottomright': {'x': 829, 'y': 646}}, {'label': 'car', 'confidence': 0.85930663, 'topleft': {'x': 1114, 'y': 495}, 'bottomright': {'x': 1381, 'y': 652}}, {'label': 'car', 'confidence': 0.86961418, 'topleft': {'x': 708, 'y': 484}, 'bottomright': {'x': 1122, 'y': 751}}]
+65th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014152765274047852s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8590169, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 348, 'y': 700}}, {'label': 'car', 'confidence': 0.69162405, 'topleft': {'x': 585, 'y': 481}, 'bottomright': {'x': 828, 'y': 649}}, {'label': 'car', 'confidence': 0.87094021, 'topleft': {'x': 1103, 'y': 494}, 'bottomright': {'x': 1380, 'y': 652}}, {'label': 'car', 'confidence': 0.88762748, 'topleft': {'x': 603, 'y': 466}, 'bottomright': {'x': 1107, 'y': 730}}]
+66th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014627456665039062s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86275464, 'topleft': {'x': 5, 'y': 442}, 'bottomright': {'x': 344, 'y': 705}}, {'label': 'car', 'confidence': 0.66908473, 'topleft': {'x': 590, 'y': 483}, 'bottomright': {'x': 831, 'y': 640}}, {'label': 'car', 'confidence': 0.86251551, 'topleft': {'x': 1108, 'y': 489}, 'bottomright': {'x': 1390, 'y': 658}}, {'label': 'car', 'confidence': 0.88609713, 'topleft': {'x': 600, 'y': 467}, 'bottomright': {'x': 1105, 'y': 730}}]
+67th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.08706045150756836s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86151785, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 352, 'y': 701}}, {'label': 'car', 'confidence': 0.87327939, 'topleft': {'x': 1108, 'y': 490}, 'bottomright': {'x': 1377, 'y': 656}}, {'label': 'car', 'confidence': 0.88900787, 'topleft': {'x': 605, 'y': 466}, 'bottomright': {'x': 1101, 'y': 726}}]
+68th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014579057693481445s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87172353, 'topleft': {'x': 0, 'y': 440}, 'bottomright': {'x': 351, 'y': 703}}, {'label': 'car', 'confidence': 0.87237912, 'topleft': {'x': 1105, 'y': 489}, 'bottomright': {'x': 1387, 'y': 654}}, {'label': 'car', 'confidence': 0.8952502, 'topleft': {'x': 591, 'y': 464}, 'bottomright': {'x': 1111, 'y': 727}}]
+69th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014058828353881836s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86854291, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 348, 'y': 702}}, {'label': 'car', 'confidence': 0.85455728, 'topleft': {'x': 1115, 'y': 492}, 'bottomright': {'x': 1363, 'y': 654}}, {'label': 'car', 'confidence': 0.89289731, 'topleft': {'x': 599, 'y': 467}, 'bottomright': {'x': 1102, 'y': 729}}]
+70th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015995502471923828s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87182277, 'topleft': {'x': 0, 'y': 441}, 'bottomright': {'x': 350, 'y': 703}}, {'label': 'car', 'confidence': 0.66543412, 'topleft': {'x': 596, 'y': 479}, 'bottomright': {'x': 824, 'y': 644}}, {'label': 'car', 'confidence': 0.85778058, 'topleft': {'x': 1101, 'y': 485}, 'bottomright': {'x': 1380, 'y': 657}}, {'label': 'car', 'confidence': 0.64446032, 'topleft': {'x': 1637, 'y': 531}, 'bottomright': {'x': 1760, 'y': 612}}, {'label': 'car', 'confidence': 0.88829923, 'topleft': {'x': 604, 'y': 466}, 'bottomright': {'x': 1098, 'y': 732}}]
+71th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014499902725219727s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86635488, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 352, 'y': 701}}, {'label': 'car', 'confidence': 0.64414155, 'topleft': {'x': 592, 'y': 481}, 'bottomright': {'x': 825, 'y': 633}}, {'label': 'car', 'confidence': 0.87287962, 'topleft': {'x': 1109, 'y': 491}, 'bottomright': {'x': 1371, 'y': 654}}, {'label': 'car', 'confidence': 0.89277172, 'topleft': {'x': 602, 'y': 461}, 'bottomright': {'x': 1101, 'y': 737}}]
+72th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014223575592041016s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86638391, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 348, 'y': 703}}, {'label': 'car', 'confidence': 0.64387339, 'topleft': {'x': 594, 'y': 483}, 'bottomright': {'x': 820, 'y': 634}}, {'label': 'car', 'confidence': 0.85878366, 'topleft': {'x': 1102, 'y': 483}, 'bottomright': {'x': 1381, 'y': 660}}, {'label': 'car', 'confidence': 0.89141458, 'topleft': {'x': 611, 'y': 462}, 'bottomright': {'x': 1092, 'y': 743}}]
+73th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01494288444519043s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86562681, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 353, 'y': 700}}, {'label': 'car', 'confidence': 0.62217736, 'topleft': {'x': 596, 'y': 487}, 'bottomright': {'x': 814, 'y': 640}}, {'label': 'car', 'confidence': 0.85897934, 'topleft': {'x': 1093, 'y': 484}, 'bottomright': {'x': 1388, 'y': 663}}, {'label': 'car', 'confidence': 0.89116621, 'topleft': {'x': 612, 'y': 470}, 'bottomright': {'x': 1090, 'y': 748}}]
+74th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014213323593139648s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86657804, 'topleft': {'x': 0, 'y': 447}, 'bottomright': {'x': 353, 'y': 701}}, {'label': 'car', 'confidence': 0.60831189, 'topleft': {'x': 591, 'y': 490}, 'bottomright': {'x': 807, 'y': 641}}, {'label': 'car', 'confidence': 0.85444331, 'topleft': {'x': 1098, 'y': 484}, 'bottomright': {'x': 1393, 'y': 663}}, {'label': 'car', 'confidence': 0.88419753, 'topleft': {'x': 611, 'y': 469}, 'bottomright': {'x': 1091, 'y': 754}}]
+75th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014311552047729492s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86310637, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 349, 'y': 702}}, {'label': 'car', 'confidence': 0.63171363, 'topleft': {'x': 597, 'y': 488}, 'bottomright': {'x': 810, 'y': 637}}, {'label': 'car', 'confidence': 0.84166086, 'topleft': {'x': 1095, 'y': 488}, 'bottomright': {'x': 1388, 'y': 659}}, {'label': 'car', 'confidence': 0.88992995, 'topleft': {'x': 615, 'y': 475}, 'bottomright': {'x': 1094, 'y': 752}}]
+76th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015202760696411133s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86693251, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 355, 'y': 702}}, {'label': 'car', 'confidence': 0.72781163, 'topleft': {'x': 593, 'y': 486}, 'bottomright': {'x': 819, 'y': 643}}, {'label': 'car', 'confidence': 0.83537644, 'topleft': {'x': 1101, 'y': 491}, 'bottomright': {'x': 1404, 'y': 657}}, {'label': 'car', 'confidence': 0.88472307, 'topleft': {'x': 623, 'y': 482}, 'bottomright': {'x': 1090, 'y': 753}}]
+77th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014448881149291992s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8657586, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 358, 'y': 703}}, {'label': 'car', 'confidence': 0.83865428, 'topleft': {'x': 1097, 'y': 491}, 'bottomright': {'x': 1399, 'y': 657}}, {'label': 'car', 'confidence': 0.88668638, 'topleft': {'x': 611, 'y': 470}, 'bottomright': {'x': 1093, 'y': 756}}]
+78th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015269756317138672s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86614311, 'topleft': {'x': 2, 'y': 442}, 'bottomright': {'x': 351, 'y': 706}}, {'label': 'car', 'confidence': 0.72094423, 'topleft': {'x': 596, 'y': 484}, 'bottomright': {'x': 816, 'y': 639}}, {'label': 'car', 'confidence': 0.838485, 'topleft': {'x': 1092, 'y': 494}, 'bottomright': {'x': 1382, 'y': 656}}, {'label': 'car', 'confidence': 0.89065707, 'topleft': {'x': 614, 'y': 472}, 'bottomright': {'x': 1080, 'y': 756}}]
+79th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015421390533447266s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85865027, 'topleft': {'x': 1, 'y': 444}, 'bottomright': {'x': 355, 'y': 705}}, {'label': 'car', 'confidence': 0.71495503, 'topleft': {'x': 597, 'y': 485}, 'bottomright': {'x': 810, 'y': 639}}, {'label': 'car', 'confidence': 0.84609824, 'topleft': {'x': 1091, 'y': 490}, 'bottomright': {'x': 1385, 'y': 657}}, {'label': 'car', 'confidence': 0.89423478, 'topleft': {'x': 616, 'y': 477}, 'bottomright': {'x': 1079, 'y': 762}}]
+80th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014251232147216797s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8642146, 'topleft': {'x': 1, 'y': 442}, 'bottomright': {'x': 349, 'y': 707}}, {'label': 'car', 'confidence': 0.83998656, 'topleft': {'x': 1106, 'y': 494}, 'bottomright': {'x': 1382, 'y': 656}}, {'label': 'car', 'confidence': 0.8872301, 'topleft': {'x': 596, 'y': 471}, 'bottomright': {'x': 1084, 'y': 765}}]
+81th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015753507614135742s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86257941, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 354, 'y': 704}}, {'label': 'car', 'confidence': 0.86614698, 'topleft': {'x': 1086, 'y': 489}, 'bottomright': {'x': 1385, 'y': 661}}, {'label': 'car', 'confidence': 0.88229835, 'topleft': {'x': 594, 'y': 471}, 'bottomright': {'x': 1080, 'y': 763}}]
+82th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014941930770874023s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86376023, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 352, 'y': 701}}, {'label': 'car', 'confidence': 0.86596364, 'topleft': {'x': 1093, 'y': 491}, 'bottomright': {'x': 1388, 'y': 655}}, {'label': 'car', 'confidence': 0.88100809, 'topleft': {'x': 598, 'y': 474}, 'bottomright': {'x': 1073, 'y': 764}}]
+83th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014101505279541016s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86258143, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 354, 'y': 705}}, {'label': 'car', 'confidence': 0.84358871, 'topleft': {'x': 1091, 'y': 489}, 'bottomright': {'x': 1385, 'y': 656}}, {'label': 'car', 'confidence': 0.88194966, 'topleft': {'x': 600, 'y': 478}, 'bottomright': {'x': 1068, 'y': 768}}]
+84th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014043807983398438s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86430931, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 356, 'y': 702}}, {'label': 'car', 'confidence': 0.85661352, 'topleft': {'x': 1087, 'y': 486}, 'bottomright': {'x': 1381, 'y': 658}}, {'label': 'car', 'confidence': 0.87369126, 'topleft': {'x': 596, 'y': 471}, 'bottomright': {'x': 1062, 'y': 772}}]
+85th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014519691467285156s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8659842, 'topleft': {'x': 0, 'y': 442}, 'bottomright': {'x': 354, 'y': 706}}, {'label': 'car', 'confidence': 0.85052067, 'topleft': {'x': 1098, 'y': 487}, 'bottomright': {'x': 1391, 'y': 658}}, {'label': 'car', 'confidence': 0.88066298, 'topleft': {'x': 584, 'y': 475}, 'bottomright': {'x': 1050, 'y': 773}}]
+86th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014871597290039062s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85696852, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 355, 'y': 703}}, {'label': 'car', 'confidence': 0.85505259, 'topleft': {'x': 1098, 'y': 486}, 'bottomright': {'x': 1383, 'y': 659}}, {'label': 'car', 'confidence': 0.87505001, 'topleft': {'x': 578, 'y': 474}, 'bottomright': {'x': 1047, 'y': 767}}]
+87th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015060901641845703s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86437047, 'topleft': {'x': 0, 'y': 441}, 'bottomright': {'x': 350, 'y': 704}}, {'label': 'car', 'confidence': 0.86125946, 'topleft': {'x': 1094, 'y': 484}, 'bottomright': {'x': 1384, 'y': 657}}, {'label': 'car', 'confidence': 0.87583452, 'topleft': {'x': 568, 'y': 473}, 'bottomright': {'x': 1048, 'y': 768}}]
+88th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014657258987426758s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85277617, 'topleft': {'x': 3, 'y': 445}, 'bottomright': {'x': 348, 'y': 700}}, {'label': 'car', 'confidence': 0.86755478, 'topleft': {'x': 1096, 'y': 488}, 'bottomright': {'x': 1374, 'y': 654}}, {'label': 'car', 'confidence': 0.88324147, 'topleft': {'x': 551, 'y': 475}, 'bottomright': {'x': 1036, 'y': 773}}]
+89th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01500844955444336s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85614306, 'topleft': {'x': 3, 'y': 445}, 'bottomright': {'x': 346, 'y': 700}}, {'label': 'car', 'confidence': 0.85604393, 'topleft': {'x': 1088, 'y': 486}, 'bottomright': {'x': 1375, 'y': 654}}, {'label': 'car', 'confidence': 0.88620412, 'topleft': {'x': 541, 'y': 487}, 'bottomright': {'x': 1024, 'y': 772}}]
+90th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014339208602905273s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86533839, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 355, 'y': 696}}, {'label': 'car', 'confidence': 0.87206078, 'topleft': {'x': 1084, 'y': 482}, 'bottomright': {'x': 1377, 'y': 652}}, {'label': 'car', 'confidence': 0.8913244, 'topleft': {'x': 526, 'y': 480}, 'bottomright': {'x': 1011, 'y': 773}}]
+91th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01458287239074707s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86678314, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 358, 'y': 696}}, {'label': 'car', 'confidence': 0.86504203, 'topleft': {'x': 1102, 'y': 486}, 'bottomright': {'x': 1366, 'y': 652}}, {'label': 'car', 'confidence': 0.89396662, 'topleft': {'x': 512, 'y': 483}, 'bottomright': {'x': 1011, 'y': 772}}]
+92th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01430368423461914s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85859871, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 357, 'y': 697}}, {'label': 'car', 'confidence': 0.86831683, 'topleft': {'x': 1095, 'y': 484}, 'bottomright': {'x': 1368, 'y': 656}}, {'label': 'car', 'confidence': 0.89917386, 'topleft': {'x': 498, 'y': 487}, 'bottomright': {'x': 1012, 'y': 776}}]
+93th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015027761459350586s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85628545, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 353, 'y': 693}}, {'label': 'car', 'confidence': 0.86074656, 'topleft': {'x': 1098, 'y': 487}, 'bottomright': {'x': 1366, 'y': 650}}, {'label': 'car', 'confidence': 0.89541131, 'topleft': {'x': 498, 'y': 489}, 'bottomright': {'x': 1011, 'y': 778}}]
+94th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014701128005981445s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85588807, 'topleft': {'x': 0, 'y': 444}, 'bottomright': {'x': 356, 'y': 691}}, {'label': 'car', 'confidence': 0.85283548, 'topleft': {'x': 1100, 'y': 484}, 'bottomright': {'x': 1372, 'y': 649}}, {'label': 'car', 'confidence': 0.89316785, 'topleft': {'x': 486, 'y': 485}, 'bottomright': {'x': 1013, 'y': 784}}]
+95th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014297723770141602s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86705607, 'topleft': {'x': 0, 'y': 442}, 'bottomright': {'x': 352, 'y': 693}}, {'label': 'car', 'confidence': 0.87130636, 'topleft': {'x': 1094, 'y': 483}, 'bottomright': {'x': 1366, 'y': 653}}, {'label': 'car', 'confidence': 0.86890143, 'topleft': {'x': 416, 'y': 490}, 'bottomright': {'x': 984, 'y': 792}}]
+96th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014631271362304688s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85967803, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 352, 'y': 690}}, {'label': 'car', 'confidence': 0.86866623, 'topleft': {'x': 1088, 'y': 480}, 'bottomright': {'x': 1359, 'y': 656}}, {'label': 'car', 'confidence': 0.87289101, 'topleft': {'x': 385, 'y': 492}, 'bottomright': {'x': 976, 'y': 794}}]
+97th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014244318008422852s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86090142, 'topleft': {'x': 0, 'y': 446}, 'bottomright': {'x': 350, 'y': 690}}, {'label': 'car', 'confidence': 0.85287911, 'topleft': {'x': 1093, 'y': 481}, 'bottomright': {'x': 1360, 'y': 655}}, {'label': 'car', 'confidence': 0.87188745, 'topleft': {'x': 365, 'y': 487}, 'bottomright': {'x': 967, 'y': 802}}]
+98th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014301300048828125s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85392588, 'topleft': {'x': 0, 'y': 442}, 'bottomright': {'x': 342, 'y': 693}}, {'label': 'car', 'confidence': 0.86633158, 'topleft': {'x': 1088, 'y': 480}, 'bottomright': {'x': 1356, 'y': 657}}, {'label': 'car', 'confidence': 0.89731705, 'topleft': {'x': 342, 'y': 482}, 'bottomright': {'x': 957, 'y': 809}}]
+99th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01473855972290039s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84661919, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 344, 'y': 693}}, {'label': 'car', 'confidence': 0.83747691, 'topleft': {'x': 1097, 'y': 485}, 'bottomright': {'x': 1358, 'y': 655}}, {'label': 'car', 'confidence': 0.90905267, 'topleft': {'x': 321, 'y': 495}, 'bottomright': {'x': 948, 'y': 804}}]
+100th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014255523681640625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84573191, 'topleft': {'x': 0, 'y': 445}, 'bottomright': {'x': 344, 'y': 690}}, {'label': 'car', 'confidence': 0.86499441, 'topleft': {'x': 1096, 'y': 490}, 'bottomright': {'x': 1355, 'y': 650}}, {'label': 'car', 'confidence': 0.90430874, 'topleft': {'x': 312, 'y': 484}, 'bottomright': {'x': 930, 'y': 819}}]
+101th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015213489532470703s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83125311, 'topleft': {'x': 5, 'y': 442}, 'bottomright': {'x': 339, 'y': 692}}, {'label': 'car', 'confidence': 0.86322176, 'topleft': {'x': 1089, 'y': 484}, 'bottomright': {'x': 1354, 'y': 654}}, {'label': 'car', 'confidence': 0.90190303, 'topleft': {'x': 300, 'y': 481}, 'bottomright': {'x': 915, 'y': 824}}]
+102th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015185356140136719s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79277575, 'topleft': {'x': 12, 'y': 440}, 'bottomright': {'x': 335, 'y': 700}}, {'label': 'car', 'confidence': 0.86823219, 'topleft': {'x': 1084, 'y': 487}, 'bottomright': {'x': 1367, 'y': 656}}, {'label': 'car', 'confidence': 0.87875658, 'topleft': {'x': 285, 'y': 487}, 'bottomright': {'x': 926, 'y': 817}}]
+103th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.013812541961669922s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81538349, 'topleft': {'x': 14, 'y': 438}, 'bottomright': {'x': 324, 'y': 693}}, {'label': 'car', 'confidence': 0.73989558, 'topleft': {'x': 674, 'y': 480}, 'bottomright': {'x': 957, 'y': 603}}, {'label': 'car', 'confidence': 0.87359351, 'topleft': {'x': 1085, 'y': 486}, 'bottomright': {'x': 1367, 'y': 657}}, {'label': 'car', 'confidence': 0.86189228, 'topleft': {'x': 227, 'y': 521}, 'bottomright': {'x': 892, 'y': 820}}]
+104th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015350103378295898s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8130365, 'topleft': {'x': 11, 'y': 438}, 'bottomright': {'x': 331, 'y': 689}}, {'label': 'car', 'confidence': 0.72300202, 'topleft': {'x': 675, 'y': 478}, 'bottomright': {'x': 970, 'y': 606}}, {'label': 'car', 'confidence': 0.86757642, 'topleft': {'x': 1084, 'y': 486}, 'bottomright': {'x': 1366, 'y': 657}}, {'label': 'car', 'confidence': 0.87530905, 'topleft': {'x': 204, 'y': 516}, 'bottomright': {'x': 893, 'y': 827}}]
+105th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014308452606201172s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80700111, 'topleft': {'x': 20, 'y': 439}, 'bottomright': {'x': 326, 'y': 682}}, {'label': 'car', 'confidence': 0.75462496, 'topleft': {'x': 672, 'y': 475}, 'bottomright': {'x': 975, 'y': 608}}, {'label': 'car', 'confidence': 0.86907488, 'topleft': {'x': 1082, 'y': 485}, 'bottomright': {'x': 1363, 'y': 659}}, {'label': 'car', 'confidence': 0.8808682, 'topleft': {'x': 170, 'y': 512}, 'bottomright': {'x': 887, 'y': 832}}]
+106th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014832258224487305s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74507302, 'topleft': {'x': 30, 'y': 440}, 'bottomright': {'x': 323, 'y': 689}}, {'label': 'car', 'confidence': 0.76370376, 'topleft': {'x': 654, 'y': 474}, 'bottomright': {'x': 944, 'y': 604}}, {'label': 'car', 'confidence': 0.86084181, 'topleft': {'x': 1085, 'y': 481}, 'bottomright': {'x': 1342, 'y': 661}}, {'label': 'car', 'confidence': 0.89299768, 'topleft': {'x': 153, 'y': 507}, 'bottomright': {'x': 854, 'y': 839}}]
+107th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014131307601928711s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74867624, 'topleft': {'x': 27, 'y': 438}, 'bottomright': {'x': 322, 'y': 683}}, {'label': 'car', 'confidence': 0.77247262, 'topleft': {'x': 648, 'y': 465}, 'bottomright': {'x': 951, 'y': 613}}, {'label': 'car', 'confidence': 0.86777657, 'topleft': {'x': 1084, 'y': 484}, 'bottomright': {'x': 1354, 'y': 659}}, {'label': 'car', 'confidence': 0.87773722, 'topleft': {'x': 124, 'y': 501}, 'bottomright': {'x': 841, 'y': 843}}]
+108th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014486312866210938s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.70003682, 'topleft': {'x': 27, 'y': 442}, 'bottomright': {'x': 321, 'y': 676}}, {'label': 'car', 'confidence': 0.75302267, 'topleft': {'x': 638, 'y': 469}, 'bottomright': {'x': 950, 'y': 618}}, {'label': 'car', 'confidence': 0.86377716, 'topleft': {'x': 1085, 'y': 482}, 'bottomright': {'x': 1363, 'y': 663}}, {'label': 'car', 'confidence': 0.88008565, 'topleft': {'x': 90, 'y': 503}, 'bottomright': {'x': 852, 'y': 843}}]
+109th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01449728012084961s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.68987769, 'topleft': {'x': 31, 'y': 440}, 'bottomright': {'x': 316, 'y': 676}}, {'label': 'car', 'confidence': 0.76359421, 'topleft': {'x': 632, 'y': 465}, 'bottomright': {'x': 924, 'y': 627}}, {'label': 'car', 'confidence': 0.85109276, 'topleft': {'x': 1089, 'y': 482}, 'bottomright': {'x': 1367, 'y': 665}}, {'label': 'car', 'confidence': 0.655294, 'topleft': {'x': 1538, 'y': 548}, 'bottomright': {'x': 1654, 'y': 632}}, {'label': 'car', 'confidence': 0.85466254, 'topleft': {'x': 96, 'y': 494}, 'bottomright': {'x': 826, 'y': 852}}]
+110th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01422119140625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74387509, 'topleft': {'x': 627, 'y': 467}, 'bottomright': {'x': 909, 'y': 629}}, {'label': 'car', 'confidence': 0.85161775, 'topleft': {'x': 1087, 'y': 482}, 'bottomright': {'x': 1368, 'y': 665}}, {'label': 'car', 'confidence': 0.8842997, 'topleft': {'x': 26, 'y': 495}, 'bottomright': {'x': 811, 'y': 866}}]
+111th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014597654342651367s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74835223, 'topleft': {'x': 624, 'y': 470}, 'bottomright': {'x': 912, 'y': 637}}, {'label': 'car', 'confidence': 0.86333025, 'topleft': {'x': 1087, 'y': 483}, 'bottomright': {'x': 1365, 'y': 664}}, {'label': 'car', 'confidence': 0.64990133, 'topleft': {'x': 1536, 'y': 547}, 'bottomright': {'x': 1655, 'y': 632}}, {'label': 'car', 'confidence': 0.89387822, 'topleft': {'x': 5, 'y': 485}, 'bottomright': {'x': 794, 'y': 867}}]
+112th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014111757278442383s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.75700182, 'topleft': {'x': 619, 'y': 467}, 'bottomright': {'x': 922, 'y': 640}}, {'label': 'car', 'confidence': 0.86046684, 'topleft': {'x': 1083, 'y': 483}, 'bottomright': {'x': 1368, 'y': 664}}, {'label': 'car', 'confidence': 0.62639785, 'topleft': {'x': 1535, 'y': 549}, 'bottomright': {'x': 1656, 'y': 632}}, {'label': 'car', 'confidence': 0.89339972, 'topleft': {'x': 0, 'y': 482}, 'bottomright': {'x': 757, 'y': 868}}]
+113th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014598369598388672s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74462372, 'topleft': {'x': 619, 'y': 464}, 'bottomright': {'x': 918, 'y': 635}}, {'label': 'car', 'confidence': 0.86613947, 'topleft': {'x': 1084, 'y': 483}, 'bottomright': {'x': 1345, 'y': 658}}, {'label': 'car', 'confidence': 0.90546924, 'topleft': {'x': 0, 'y': 489}, 'bottomright': {'x': 743, 'y': 865}}]
+114th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015341997146606445s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.80579019, 'topleft': {'x': 594, 'y': 477}, 'bottomright': {'x': 826, 'y': 636}}, {'label': 'car', 'confidence': 0.87151796, 'topleft': {'x': 1086, 'y': 485}, 'bottomright': {'x': 1351, 'y': 658}}, {'label': 'car', 'confidence': 0.90348214, 'topleft': {'x': 0, 'y': 486}, 'bottomright': {'x': 730, 'y': 875}}]
+115th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014086484909057617s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.84000355, 'topleft': {'x': 583, 'y': 464}, 'bottomright': {'x': 840, 'y': 638}}, {'label': 'car', 'confidence': 0.86890769, 'topleft': {'x': 1083, 'y': 477}, 'bottomright': {'x': 1351, 'y': 660}}, {'label': 'car', 'confidence': 0.89734685, 'topleft': {'x': 0, 'y': 478}, 'bottomright': {'x': 686, 'y': 892}}]
+116th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014890432357788086s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81751591, 'topleft': {'x': 575, 'y': 466}, 'bottomright': {'x': 834, 'y': 642}}, {'label': 'car', 'confidence': 0.85599935, 'topleft': {'x': 1084, 'y': 483}, 'bottomright': {'x': 1361, 'y': 657}}, {'label': 'car', 'confidence': 0.89491856, 'topleft': {'x': 2, 'y': 475}, 'bottomright': {'x': 658, 'y': 900}}]
+117th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01482081413269043s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8099966, 'topleft': {'x': 568, 'y': 458}, 'bottomright': {'x': 1005, 'y': 664}}, {'label': 'car', 'confidence': 0.86049759, 'topleft': {'x': 1083, 'y': 482}, 'bottomright': {'x': 1360, 'y': 657}}, {'label': 'car', 'confidence': 0.88936132, 'topleft': {'x': 4, 'y': 468}, 'bottomright': {'x': 632, 'y': 913}}]
+118th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.016605377197265625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.83554643, 'topleft': {'x': 580, 'y': 463}, 'bottomright': {'x': 835, 'y': 654}}, {'label': 'car', 'confidence': 0.8664704, 'topleft': {'x': 1087, 'y': 484}, 'bottomright': {'x': 1354, 'y': 654}}, {'label': 'car', 'confidence': 0.86783117, 'topleft': {'x': 0, 'y': 481}, 'bottomright': {'x': 587, 'y': 901}}]
+119th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015677213668823242s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82869357, 'topleft': {'x': 571, 'y': 465}, 'bottomright': {'x': 842, 'y': 658}}, {'label': 'car', 'confidence': 0.86529946, 'topleft': {'x': 1085, 'y': 483}, 'bottomright': {'x': 1352, 'y': 656}}, {'label': 'car', 'confidence': 0.60532635, 'topleft': {'x': 1526, 'y': 536}, 'bottomright': {'x': 1659, 'y': 636}}, {'label': 'car', 'confidence': 0.88007212, 'topleft': {'x': 0, 'y': 473}, 'bottomright': {'x': 584, 'y': 903}}]
+120th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.0160520076751709s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82422608, 'topleft': {'x': 567, 'y': 462}, 'bottomright': {'x': 842, 'y': 655}}, {'label': 'car', 'confidence': 0.85752606, 'topleft': {'x': 1084, 'y': 482}, 'bottomright': {'x': 1345, 'y': 655}}, {'label': 'car', 'confidence': 0.61640191, 'topleft': {'x': 1521, 'y': 534}, 'bottomright': {'x': 1660, 'y': 637}}, {'label': 'car', 'confidence': 0.84956938, 'topleft': {'x': 0, 'y': 465}, 'bottomright': {'x': 578, 'y': 916}}]
+121th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014455318450927734s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82352972, 'topleft': {'x': 571, 'y': 461}, 'bottomright': {'x': 833, 'y': 657}}, {'label': 'car', 'confidence': 0.84215039, 'topleft': {'x': 1084, 'y': 482}, 'bottomright': {'x': 1347, 'y': 655}}, {'label': 'car', 'confidence': 0.6075412, 'topleft': {'x': 1532, 'y': 535}, 'bottomright': {'x': 1641, 'y': 611}}, {'label': 'car', 'confidence': 0.82382709, 'topleft': {'x': 0, 'y': 460}, 'bottomright': {'x': 554, 'y': 921}}]
+122th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014714241027832031s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85184073, 'topleft': {'x': 570, 'y': 461}, 'bottomright': {'x': 829, 'y': 661}}, {'label': 'car', 'confidence': 0.84640223, 'topleft': {'x': 1092, 'y': 480}, 'bottomright': {'x': 1346, 'y': 653}}, {'label': 'car', 'confidence': 0.621553, 'topleft': {'x': 1531, 'y': 532}, 'bottomright': {'x': 1643, 'y': 612}}, {'label': 'car', 'confidence': 0.85199624, 'topleft': {'x': 1, 'y': 457}, 'bottomright': {'x': 536, 'y': 918}}]
+123th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01454472541809082s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85053962, 'topleft': {'x': 566, 'y': 465}, 'bottomright': {'x': 841, 'y': 654}}, {'label': 'car', 'confidence': 0.82782239, 'topleft': {'x': 1092, 'y': 478}, 'bottomright': {'x': 1349, 'y': 655}}, {'label': 'car', 'confidence': 0.62888265, 'topleft': {'x': 1527, 'y': 532}, 'bottomright': {'x': 1639, 'y': 614}}, {'label': 'car', 'confidence': 0.85091162, 'topleft': {'x': 9, 'y': 451}, 'bottomright': {'x': 522, 'y': 922}}]
+124th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01593017578125s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.82994652, 'topleft': {'x': 566, 'y': 452}, 'bottomright': {'x': 841, 'y': 658}}, {'label': 'car', 'confidence': 0.79003203, 'topleft': {'x': 1094, 'y': 478}, 'bottomright': {'x': 1349, 'y': 651}}, {'label': 'car', 'confidence': 0.61863947, 'topleft': {'x': 1525, 'y': 530}, 'bottomright': {'x': 1638, 'y': 613}}, {'label': 'car', 'confidence': 0.85435158, 'topleft': {'x': 6, 'y': 459}, 'bottomright': {'x': 498, 'y': 912}}]
+125th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.016666889190673828s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86479378, 'topleft': {'x': 561, 'y': 458}, 'bottomright': {'x': 836, 'y': 664}}, {'label': 'car', 'confidence': 0.82196772, 'topleft': {'x': 1086, 'y': 472}, 'bottomright': {'x': 1339, 'y': 656}}, {'label': 'car', 'confidence': 0.60162002, 'topleft': {'x': 1512, 'y': 529}, 'bottomright': {'x': 1634, 'y': 617}}, {'label': 'car', 'confidence': 0.83224785, 'topleft': {'x': 7, 'y': 463}, 'bottomright': {'x': 478, 'y': 907}}]
+126th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015374898910522461s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8641935, 'topleft': {'x': 565, 'y': 456}, 'bottomright': {'x': 836, 'y': 666}}, {'label': 'car', 'confidence': 0.81454158, 'topleft': {'x': 1090, 'y': 474}, 'bottomright': {'x': 1339, 'y': 654}}, {'label': 'car', 'confidence': 0.85307121, 'topleft': {'x': 5, 'y': 414}, 'bottomright': {'x': 426, 'y': 882}}]
+127th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015026569366455078s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86150491, 'topleft': {'x': 565, 'y': 449}, 'bottomright': {'x': 837, 'y': 664}}, {'label': 'car', 'confidence': 0.79793555, 'topleft': {'x': 1099, 'y': 474}, 'bottomright': {'x': 1340, 'y': 653}}, {'label': 'car', 'confidence': 0.60334879, 'topleft': {'x': 1508, 'y': 529}, 'bottomright': {'x': 1626, 'y': 615}}, {'label': 'car', 'confidence': 0.86663604, 'topleft': {'x': 7, 'y': 418}, 'bottomright': {'x': 407, 'y': 886}}]
+128th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014243602752685547s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86084491, 'topleft': {'x': 563, 'y': 456}, 'bottomright': {'x': 841, 'y': 663}}, {'label': 'car', 'confidence': 0.82442385, 'topleft': {'x': 1085, 'y': 469}, 'bottomright': {'x': 1336, 'y': 654}}, {'label': 'car', 'confidence': 0.64394069, 'topleft': {'x': 1504, 'y': 529}, 'bottomright': {'x': 1630, 'y': 617}}, {'label': 'car', 'confidence': 0.8652088, 'topleft': {'x': 3, 'y': 422}, 'bottomright': {'x': 380, 'y': 875}}]
+129th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01411890983581543s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86058033, 'topleft': {'x': 564, 'y': 452}, 'bottomright': {'x': 841, 'y': 662}}, {'label': 'car', 'confidence': 0.8241834, 'topleft': {'x': 1085, 'y': 473}, 'bottomright': {'x': 1340, 'y': 651}}, {'label': 'car', 'confidence': 0.62294531, 'topleft': {'x': 1500, 'y': 528}, 'bottomright': {'x': 1627, 'y': 616}}, {'label': 'car', 'confidence': 0.85966706, 'topleft': {'x': 6, 'y': 403}, 'bottomright': {'x': 345, 'y': 883}}]
+130th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014372110366821289s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86062807, 'topleft': {'x': 543, 'y': 427}, 'bottomright': {'x': 894, 'y': 675}}, {'label': 'car', 'confidence': 0.82295769, 'topleft': {'x': 1088, 'y': 475}, 'bottomright': {'x': 1345, 'y': 648}}, {'label': 'car', 'confidence': 0.63499892, 'topleft': {'x': 1502, 'y': 529}, 'bottomright': {'x': 1628, 'y': 613}}, {'label': 'car', 'confidence': 0.78152686, 'topleft': {'x': 1, 'y': 432}, 'bottomright': {'x': 320, 'y': 944}}]
+131th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014429092407226562s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.85692728, 'topleft': {'x': 566, 'y': 455}, 'bottomright': {'x': 840, 'y': 662}}, {'label': 'car', 'confidence': 0.79755282, 'topleft': {'x': 1086, 'y': 473}, 'bottomright': {'x': 1344, 'y': 652}}, {'label': 'car', 'confidence': 0.60769171, 'topleft': {'x': 1507, 'y': 531}, 'bottomright': {'x': 1632, 'y': 613}}, {'label': 'car', 'confidence': 0.82454324, 'topleft': {'x': 0, 'y': 471}, 'bottomright': {'x': 273, 'y': 911}}]
+132th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014432430267333984s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8543008, 'topleft': {'x': 546, 'y': 425}, 'bottomright': {'x': 887, 'y': 675}}, {'label': 'car', 'confidence': 0.76890254, 'topleft': {'x': 1095, 'y': 474}, 'bottomright': {'x': 1337, 'y': 647}}, {'label': 'car', 'confidence': 0.61964768, 'topleft': {'x': 1469, 'y': 530}, 'bottomright': {'x': 1623, 'y': 644}}, {'label': 'car', 'confidence': 0.86469406, 'topleft': {'x': 10, 'y': 471}, 'bottomright': {'x': 255, 'y': 923}}]
+133th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015471458435058594s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87356871, 'topleft': {'x': 547, 'y': 426}, 'bottomright': {'x': 887, 'y': 675}}, {'label': 'car', 'confidence': 0.84571064, 'topleft': {'x': 1077, 'y': 470}, 'bottomright': {'x': 1341, 'y': 658}}, {'label': 'car', 'confidence': 0.68043119, 'topleft': {'x': 1465, 'y': 529}, 'bottomright': {'x': 1608, 'y': 643}}, {'label': 'car', 'confidence': 0.84490007, 'topleft': {'x': 6, 'y': 464}, 'bottomright': {'x': 235, 'y': 930}}]
+134th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01436471939086914s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87852895, 'topleft': {'x': 545, 'y': 426}, 'bottomright': {'x': 883, 'y': 675}}, {'label': 'car', 'confidence': 0.81355399, 'topleft': {'x': 1081, 'y': 474}, 'bottomright': {'x': 1340, 'y': 656}}, {'label': 'car', 'confidence': 0.7254988, 'topleft': {'x': 1463, 'y': 533}, 'bottomright': {'x': 1609, 'y': 640}}, {'label': 'car', 'confidence': 0.69953036, 'topleft': {'x': 5, 'y': 450}, 'bottomright': {'x': 211, 'y': 941}}]
+135th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01506352424621582s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.88101977, 'topleft': {'x': 548, 'y': 434}, 'bottomright': {'x': 887, 'y': 676}}, {'label': 'car', 'confidence': 0.85227406, 'topleft': {'x': 1081, 'y': 479}, 'bottomright': {'x': 1334, 'y': 654}}, {'label': 'car', 'confidence': 0.75170523, 'topleft': {'x': 1462, 'y': 532}, 'bottomright': {'x': 1618, 'y': 641}}, {'label': 'car', 'confidence': 0.67085499, 'topleft': {'x': 9, 'y': 444}, 'bottomright': {'x': 205, 'y': 960}}]
+136th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014794111251831055s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87239856, 'topleft': {'x': 549, 'y': 435}, 'bottomright': {'x': 884, 'y': 680}}, {'label': 'car', 'confidence': 0.8515833, 'topleft': {'x': 1082, 'y': 479}, 'bottomright': {'x': 1334, 'y': 658}}, {'label': 'car', 'confidence': 0.74225181, 'topleft': {'x': 1464, 'y': 533}, 'bottomright': {'x': 1619, 'y': 643}}]
+137th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.016256093978881836s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.65979242, 'topleft': {'x': 0, 'y': 375}, 'bottomright': {'x': 199, 'y': 738}}, {'label': 'car', 'confidence': 0.87631261, 'topleft': {'x': 542, 'y': 441}, 'bottomright': {'x': 886, 'y': 680}}, {'label': 'car', 'confidence': 0.84631687, 'topleft': {'x': 1082, 'y': 479}, 'bottomright': {'x': 1334, 'y': 659}}, {'label': 'car', 'confidence': 0.75345004, 'topleft': {'x': 1462, 'y': 532}, 'bottomright': {'x': 1613, 'y': 642}}]
+138th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015270233154296875s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79253626, 'topleft': {'x': 0, 'y': 392}, 'bottomright': {'x': 191, 'y': 732}}, {'label': 'car', 'confidence': 0.87000978, 'topleft': {'x': 558, 'y': 454}, 'bottomright': {'x': 839, 'y': 680}}, {'label': 'car', 'confidence': 0.85413575, 'topleft': {'x': 1081, 'y': 480}, 'bottomright': {'x': 1333, 'y': 652}}, {'label': 'car', 'confidence': 0.71301639, 'topleft': {'x': 1457, 'y': 532}, 'bottomright': {'x': 1606, 'y': 643}}]
+139th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014271020889282227s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81237072, 'topleft': {'x': 0, 'y': 392}, 'bottomright': {'x': 186, 'y': 733}}, {'label': 'car', 'confidence': 0.86518484, 'topleft': {'x': 560, 'y': 453}, 'bottomright': {'x': 834, 'y': 683}}, {'label': 'car', 'confidence': 0.84628326, 'topleft': {'x': 1085, 'y': 478}, 'bottomright': {'x': 1322, 'y': 652}}, {'label': 'car', 'confidence': 0.67080891, 'topleft': {'x': 1456, 'y': 533}, 'bottomright': {'x': 1604, 'y': 642}}]
+140th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01407480239868164s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81164879, 'topleft': {'x': 0, 'y': 390}, 'bottomright': {'x': 169, 'y': 736}}, {'label': 'car', 'confidence': 0.8800723, 'topleft': {'x': 539, 'y': 438}, 'bottomright': {'x': 891, 'y': 678}}, {'label': 'car', 'confidence': 0.8573103, 'topleft': {'x': 1076, 'y': 477}, 'bottomright': {'x': 1338, 'y': 653}}, {'label': 'car', 'confidence': 0.60571146, 'topleft': {'x': 1451, 'y': 532}, 'bottomright': {'x': 1597, 'y': 642}}]
+141th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.015170574188232422s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.81326282, 'topleft': {'x': 0, 'y': 398}, 'bottomright': {'x': 156, 'y': 727}}, {'label': 'car', 'confidence': 0.86372924, 'topleft': {'x': 542, 'y': 443}, 'bottomright': {'x': 885, 'y': 681}}, {'label': 'car', 'confidence': 0.85421258, 'topleft': {'x': 1081, 'y': 484}, 'bottomright': {'x': 1325, 'y': 654}}, {'label': 'car', 'confidence': 0.668558, 'topleft': {'x': 1444, 'y': 530}, 'bottomright': {'x': 1602, 'y': 646}}]
+142th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014169931411743164s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.7826941, 'topleft': {'x': 0, 'y': 393}, 'bottomright': {'x': 145, 'y': 729}}, {'label': 'car', 'confidence': 0.88665289, 'topleft': {'x': 539, 'y': 450}, 'bottomright': {'x': 885, 'y': 679}}, {'label': 'car', 'confidence': 0.86978388, 'topleft': {'x': 1082, 'y': 487}, 'bottomright': {'x': 1329, 'y': 652}}, {'label': 'car', 'confidence': 0.69934219, 'topleft': {'x': 1440, 'y': 528}, 'bottomright': {'x': 1604, 'y': 648}}]
+143th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014235258102416992s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.7901786, 'topleft': {'x': 0, 'y': 401}, 'bottomright': {'x': 140, 'y': 724}}, {'label': 'car', 'confidence': 0.88417482, 'topleft': {'x': 537, 'y': 448}, 'bottomright': {'x': 893, 'y': 678}}, {'label': 'car', 'confidence': 0.84030372, 'topleft': {'x': 1064, 'y': 472}, 'bottomright': {'x': 1345, 'y': 664}}, {'label': 'car', 'confidence': 0.69358045, 'topleft': {'x': 1438, 'y': 529}, 'bottomright': {'x': 1601, 'y': 650}}]
+144th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014838457107543945s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.79590631, 'topleft': {'x': 0, 'y': 401}, 'bottomright': {'x': 140, 'y': 725}}, {'label': 'car', 'confidence': 0.88112843, 'topleft': {'x': 546, 'y': 444}, 'bottomright': {'x': 889, 'y': 680}}, {'label': 'car', 'confidence': 0.8658492, 'topleft': {'x': 1077, 'y': 479}, 'bottomright': {'x': 1330, 'y': 655}}, {'label': 'car', 'confidence': 0.74117672, 'topleft': {'x': 1438, 'y': 530}, 'bottomright': {'x': 1602, 'y': 651}}]
+145th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.017334461212158203s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.78598028, 'topleft': {'x': 0, 'y': 400}, 'bottomright': {'x': 141, 'y': 725}}, {'label': 'car', 'confidence': 0.88316303, 'topleft': {'x': 541, 'y': 439}, 'bottomright': {'x': 883, 'y': 681}}, {'label': 'car', 'confidence': 0.84539813, 'topleft': {'x': 1079, 'y': 477}, 'bottomright': {'x': 1336, 'y': 658}}, {'label': 'car', 'confidence': 0.74905336, 'topleft': {'x': 1436, 'y': 531}, 'bottomright': {'x': 1601, 'y': 649}}]
+146th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014224052429199219s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.74950117, 'topleft': {'x': 0, 'y': 409}, 'bottomright': {'x': 132, 'y': 712}}, {'label': 'car', 'confidence': 0.88369948, 'topleft': {'x': 533, 'y': 448}, 'bottomright': {'x': 897, 'y': 677}}, {'label': 'car', 'confidence': 0.86493623, 'topleft': {'x': 1068, 'y': 475}, 'bottomright': {'x': 1342, 'y': 661}}, {'label': 'car', 'confidence': 0.80032629, 'topleft': {'x': 1430, 'y': 533}, 'bottomright': {'x': 1600, 'y': 651}}]
+147th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014718770980834961s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.70653665, 'topleft': {'x': 0, 'y': 417}, 'bottomright': {'x': 131, 'y': 701}}, {'label': 'car', 'confidence': 0.88342905, 'topleft': {'x': 531, 'y': 448}, 'bottomright': {'x': 895, 'y': 677}}, {'label': 'car', 'confidence': 0.84922981, 'topleft': {'x': 1065, 'y': 474}, 'bottomright': {'x': 1348, 'y': 661}}, {'label': 'car', 'confidence': 0.78632128, 'topleft': {'x': 1429, 'y': 536}, 'bottomright': {'x': 1593, 'y': 649}}]
+148th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01732778549194336s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.67404997, 'topleft': {'x': 0, 'y': 412}, 'bottomright': {'x': 115, 'y': 703}}, {'label': 'car', 'confidence': 0.8797459, 'topleft': {'x': 539, 'y': 452}, 'bottomright': {'x': 891, 'y': 680}}, {'label': 'car', 'confidence': 0.81926966, 'topleft': {'x': 1063, 'y': 478}, 'bottomright': {'x': 1344, 'y': 659}}, {'label': 'car', 'confidence': 0.78295106, 'topleft': {'x': 1423, 'y': 538}, 'bottomright': {'x': 1595, 'y': 651}}]
+149th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014568567276000977s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.63128459, 'topleft': {'x': 0, 'y': 418}, 'bottomright': {'x': 102, 'y': 692}}, {'label': 'car', 'confidence': 0.88108861, 'topleft': {'x': 531, 'y': 452}, 'bottomright': {'x': 897, 'y': 680}}, {'label': 'car', 'confidence': 0.83366317, 'topleft': {'x': 1060, 'y': 473}, 'bottomright': {'x': 1349, 'y': 662}}, {'label': 'car', 'confidence': 0.78213435, 'topleft': {'x': 1423, 'y': 538}, 'bottomright': {'x': 1590, 'y': 649}}]
+150th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014920949935913086s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.62701201, 'topleft': {'x': 0, 'y': 418}, 'bottomright': {'x': 95, 'y': 686}}, {'label': 'car', 'confidence': 0.8867923, 'topleft': {'x': 527, 'y': 447}, 'bottomright': {'x': 895, 'y': 679}}, {'label': 'car', 'confidence': 0.83407813, 'topleft': {'x': 1069, 'y': 480}, 'bottomright': {'x': 1343, 'y': 658}}, {'label': 'car', 'confidence': 0.73762548, 'topleft': {'x': 1417, 'y': 539}, 'bottomright': {'x': 1585, 'y': 647}}]
+151th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.013824462890625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.88342184, 'topleft': {'x': 517, 'y': 447}, 'bottomright': {'x': 901, 'y': 678}}, {'label': 'car', 'confidence': 0.85920101, 'topleft': {'x': 1070, 'y': 484}, 'bottomright': {'x': 1341, 'y': 657}}]
+152th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01482701301574707s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.86006337, 'topleft': {'x': 516, 'y': 447}, 'bottomright': {'x': 909, 'y': 676}}, {'label': 'car', 'confidence': 0.85495716, 'topleft': {'x': 1070, 'y': 484}, 'bottomright': {'x': 1345, 'y': 656}}, {'label': 'car', 'confidence': 0.6489622, 'topleft': {'x': 1411, 'y': 532}, 'bottomright': {'x': 1587, 'y': 647}}]
+153th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.01422119140625s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.88302273, 'topleft': {'x': 510, 'y': 440}, 'bottomright': {'x': 905, 'y': 675}}, {'label': 'car', 'confidence': 0.86349219, 'topleft': {'x': 1072, 'y': 482}, 'bottomright': {'x': 1341, 'y': 655}}]
+154th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.013838768005371094s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.88124198, 'topleft': {'x': 512, 'y': 441}, 'bottomright': {'x': 909, 'y': 677}}, {'label': 'car', 'confidence': 0.85818046, 'topleft': {'x': 1070, 'y': 483}, 'bottomright': {'x': 1341, 'y': 656}}]
+155th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014178276062011719s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.8817333, 'topleft': {'x': 508, 'y': 449}, 'bottomright': {'x': 904, 'y': 677}}, {'label': 'car', 'confidence': 0.7914201, 'topleft': {'x': 1059, 'y': 481}, 'bottomright': {'x': 1349, 'y': 657}}, {'label': 'car', 'confidence': 0.63654786, 'topleft': {'x': 1369, 'y': 533}, 'bottomright': {'x': 1532, 'y': 649}}]
+156th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014251947402954102s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87766725, 'topleft': {'x': 504, 'y': 447}, 'bottomright': {'x': 915, 'y': 673}}, {'label': 'car', 'confidence': 0.7878961, 'topleft': {'x': 1068, 'y': 480}, 'bottomright': {'x': 1347, 'y': 658}}]
+157th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014272689819335938s
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:975] Creating TensorFlow device (/gpu:0) -> (device: 0, name: Tesla K80, pci bus id: 962a:00:00.0)
+[{'label': 'car', 'confidence': 0.87634248, 'topleft': {'x': 505, 'y': 450}, 'bottomright': {'x': 901, 'y': 677}}, {'label': 'car', 'confidence': 0.84010643, 'topleft': {'x': 1061, 'y': 485}, 'bottomright': {'x': 1350, 'y': 659}}]
+158th frame...
+Parsing cfg/yolo-car.cfg
+Loading bin/yolo-car_6000.weights ...
+Successfully identified 202314760 bytes
+Finished in 0.014147281646728516s

@@ -6,6 +6,7 @@
 bin/
 
 # Test data
+test/*
 test/*.jpg
 test/out/*.jpg
 
