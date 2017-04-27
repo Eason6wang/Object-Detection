@@ -34,3 +34,5 @@ build/
 
 #TensorBoard logs
 summary/
+
+nohup.out
