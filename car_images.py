@@ -199,5 +199,10 @@ def image_set(cfg, weights, dir):
             print(img_name)
             cv2.imwrite(img_name, processed)
                                                         
-    
-image_set(sys.argv[1], sys.argv[2], sys.argv[3])
+outfolder = 'test/out'
+tmpfolder = 'test/out/tmp'
+if not os.path.exists(outfolder):
+    os.makedirs(outfolder)
+if not os.path.exists(tmpfolder):
+    os.makedirs(tmpfolder)
+image_set(sys.argv[1], sys.argv[2], 'test/')
